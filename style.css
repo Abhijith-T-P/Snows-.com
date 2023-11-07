@@ -1,0 +1,137 @@
+header{
+    background-color: black;
+    padding: 17px;;
+    color: #e9eef1;
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    width: 100%;
+    
+}
+.banner{
+    position: relative;
+
+}
+.banner img{
+    max-width: 100%;
+    padding-top: 0px;
+}
+.banner .welcome{
+
+    font-size: 25px;
+    position: absolute;
+    left: 5px;
+    top: 4%;
+    padding-left: 25px;
+    margin-top: 1px;
+
+}
+.banner h2{
+    font-size: 1.7em;
+}
+.banner h2 span{
+    color: white;
+    font-size: 1.8em;
+    padding-top: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+ background-color: rgba(10, 10, 10, 0.95);
+ padding: 5px;
+ position: sticky;
+ top: 71px;
+}
+nav ul{
+    white-space: nowrap;
+}
+nav li{
+    width: 33%;
+    display: inline-block;
+    max-width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+nav li a{
+    text-decoration: none;
+    color: #e9eef1;
+    font-size: 1.5em;
+}
+h2{
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: rgba(48, 48, 48, 0.952);
+     
+    text-align: center;
+}
+main{
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 0px 20px;
+    box-sizing: border-box;
+
+}
+p{
+    line-height: 20px;
+}
+.join h2 a{
+    text-decoration: none;
+    color:rgba(48, 48, 48, 0.952);
+    background-color: rgb(209, 213, 221);
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+     
+}
+form {
+    text-align: center;
+}
+form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 30px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(209, 213, 221);
+    padding: 10px 0;
+    font-size: 1.4em;
+}
+.join a{
+    text-decoration: none;
+    color: rgba(48, 48, 48, 0.952);
+    
+}
+h3{
+    font-size: 2em; 
+    color: rgba(48, 48, 48, 0.952);
+    text-align: center;
+    background-color: #e9eef1;
+    padding: 5px 0px;   
+}
+
+
+
+
+
+
+
+/*
+.image{
+    text-align: center;
+    margin: 20px 0 ;
+    white-space: nowrap;
+}
+.images li {
+    display: inline-block;
+    width: 20%;
+    margin: 20px  5%;    
+}
+.images li img{
+    max-width: 20%;
+}*/  

@@ -1,0 +1,9 @@
+ul li{
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+}
+li img{
+    max-width:30% ;
+    white-space: nowrap;
+}

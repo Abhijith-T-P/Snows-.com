@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px 0px;
+    top: 0px;
+    position: fixed;
+    width: 98.5%;
+    z-index: 1;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    max-width: 100%;
+}
+h2{
+    
+    font-size: 50px;
+    background-color: #e9eef1;
+    text-align: center;
+}
+h2 span{
+    font-size: 2.2em;
+}
+.banner h2{
+    position: absolute;
+    color: white;
+    background-color: transparent;
+    top :10%;
+    left: 5px;
+}
+nav{
+    background-color: black;
+    padding: 10px 0px;
+    position: sticky;
+    top: 90.7px;
+}
+nav li{
+    display: inline-block;
+    white-space: nowrap;
+    width: 33%;
+    text-align: center;
+}
+li a{
+    
+    text-decoration: none;
+    color: white;
+    width: 33%;
+}
+p{
+    font-size: 0.8em;
+    color: rgba(10, 10, 10, 0.95);
+}
+form{
+    background-color: rgba(10, 10, 10, 0.95);
+    width: 100%;
+    padding: 30px 0px;
+    font-size: 25px;
+    text-align: center;
+}
+form label {
+    color: white;
+}
+form input{
+    border: white solid 3px;
+    border-radius: 30px;
+    padding: 5px 5px;
+}
+footer{
+    background-color: white;
+    text-align: center;
+    color:  rgba(10, 10, 10, 0.95);
+    padding: 5px 0px;
+}
